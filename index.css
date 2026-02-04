@@ -1,12 +1,12 @@
-@import url("/styles/fonts/playfair.css");
-@import url("/styles/sections/home.css");
-@import url("/styles/sections/skills.css");
-@import url("/styles/sections/projects.css");
-@import url("/styles/sections/education.css");
-@import url("/styles/header.css");
-@import url("/styles/main.css");
-@import url("/styles/footer.css");
-@import url("/styles/behavior.css");
+@import url("styles/fonts/playfair.css");
+@import url("styles/sections/home.css");
+@import url("styles/sections/skills.css");
+@import url("styles/sections/projects.css");
+@import url("styles/sections/education.css");
+@import url("styles/header.css");
+@import url("styles/main.css");
+@import url("styles/footer.css");
+@import url("styles/behavior.css");
 
 * {
   font-size: 16px;
