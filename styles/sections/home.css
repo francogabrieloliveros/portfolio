@@ -1,0 +1,45 @@
+#home {
+  display: flex;
+  justify-content: space-between;
+}
+
+#home h1 {
+  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom: 5rem;
+}
+
+#home img {
+  flex: 1;
+  min-width: 0;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 2rem;
+}
+
+#home p {
+  font-size: 1.5rem;
+  color: #4e4e4e;
+}
+
+#home .contacts {
+  display: flex;
+  margin-top: 5rem;
+}
+
+#home .details-container {
+  flex: 2;
+  margin-right: 3rem;
+}
+
+#home .icon {
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+#home .icon img {
+  width: 48px;
+  height: 48px;
+}

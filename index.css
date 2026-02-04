@@ -1,0 +1,34 @@
+@import url("/styles/fonts/playfair.css");
+@import url("/styles/sections/home.css");
+@import url("/styles/sections/skills.css");
+@import url("/styles/sections/projects.css");
+@import url("/styles/sections/education.css");
+@import url("/styles/header.css");
+@import url("/styles/main.css");
+@import url("/styles/footer.css");
+@import url("/styles/behavior.css");
+
+* {
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 300;
+  text-align: justify;
+}
+
+body {
+  margin: 0;
+}
+
+#main-container {
+  position: relative;
+  background-color: #ffffe4;
+  width: 100dvw;
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2rem;
+}

@@ -1,0 +1,49 @@
+#education {
+  color: #4e4e4e;
+}
+
+#education h2 {
+  color: black;
+}
+
+#education h3 {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+#education p,
+#education h3 {
+  margin: 0;
+}
+
+#education img {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1.5rem;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+#education .school {
+  display: flex;
+  align-items: start;
+}
+
+#education .schools-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border: solid 1px #4e4e4e;
+  border-radius: 1.5rem;
+  padding: 2rem;
+}
+
+#education .line {
+  position: absolute;
+  border-left: solid 1px #4e4e4e;
+  height: 100%;
+  margin-left: 23px;
+  top: 50%;
+  transform: translateY(-50%);
+}

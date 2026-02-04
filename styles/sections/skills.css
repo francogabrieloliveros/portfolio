@@ -1,0 +1,30 @@
+#skills p {
+  color: #4e4e4e;
+}
+
+#skills .skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#skills .skill {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  padding: 0.5rem;
+  border: solid 1px #4e4e4e;
+  border-radius: 0.3rem;
+  margin-bottom: 0.8rem;
+}
+
+#skills .skill > p {
+  display: inline;
+  margin: 0;
+}
+
+#skills .skill-icon {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+}

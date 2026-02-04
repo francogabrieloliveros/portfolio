@@ -1,0 +1,11 @@
+.scale-hover-click {
+  transition: all 200ms ease-in-out;
+}
+
+.scale-hover-click:hover {
+  transform: scale(110%);
+}
+
+.scale-hover-click:active {
+  transform: scale(90%);
+}
